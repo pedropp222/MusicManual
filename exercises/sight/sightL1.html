@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>        
+        <link rel="stylesheet" href="../../css/bulma.css" />
+        <link rel="stylesheet" href="../../css/estilo.css" />
+        <script src="../../script/randomSight.js"></script>
+        <link rel="stylesheet" href="../../css/all.css" />
+        
+    </head>
+
+    <body onload="Start()">
+        <div class="cheio verde">
+            <h1 class="tituloPrincipal">
+            Leitura de Pautas Nivel 1
+            </h1>
+        </div>
+        
+        <div class="cheioNavegacao azul">
+            <a class="button is-primary botaoNavegacao" href="../../index.html">Voltar para o Menu Principal</a>
+        </div>
+        
+        <section class="section">
+        <div class="container">
+            <h3 class="subtituloPrincipal textoPreto">Observa atentamente a imagem abaixo:</h3>
+            <div class="select is-multiple is-medium">
+                <p>Seleciona uma música da lista ou clica no botão para selecionar uma ao calhas:</p>
+                <select name="sheets" id="sheetList" onchange="ChangeSheet(this)">
+            </select>
+                            <button class="button is-link" onclick="choosePic()"><a><i class="fas fa-redo"></i>Música Aleatória</a></button>
+                </div>
+            <img id="sightIMG" src="">
+            <p>Quando achares que consegues tocar prime o botao play abaixo para iniciar a banda e tocar contigo!</p>
+            <audio id="sightAudio" controls>
+                <source src="" type="audio/mpeg"/>
+            </audio>
+        </div>
+        </section>
+            
+    </body>
+</html>

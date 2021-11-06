@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <head>        
+        <link rel="stylesheet" href="../../css/bulma.css" />
+        <link rel="stylesheet" href="../../css/estilo.css" />
+        <script src="../../script/sheetsList.js"></script>
+        <link rel="stylesheet" href="../../css/all.css" />
+        
+    </head>
+
+    <body onload="SelectSheet(0)">
+        <div class="cheio verde">
+            <h1 class="tituloPrincipal">
+            Pautas Nivel 1
+            </h1>
+        </div>
+        
+        <div class="cheioNavegacao azul">
+            <a class="button is-primary botaoNavegacao" href="../../index.html">Voltar para o Menu Principal</a>
+        </div>
+        
+        <section class="section">
+        <div class="container">
+            <h3 class="subtituloPrincipal textoPreto">Pauta:</h3>
+                        
+            <div class="select is-multiple is-medium">
+                <p>Seleciona uma pauta:</p>
+                <select name="sheets" id="sheetList" onchange="ChangeSheet(this)">
+            </select>
+                </div>
+            <img id="sightIMG" src="">
+            <p>Clica no play abaixo para ouvir a demonstração (não disponivel)</p>
+            <audio id="sightAudio" controls>
+                <source src="" type="audio/mpeg"/>
+            </audio>          
+            
+        </div>
+        </section>
+            
+    </body>
+</html>

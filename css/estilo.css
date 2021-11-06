@@ -1,0 +1,136 @@
+p {
+    font-size: 25px;
+    line-height: 45px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#Orange {
+    background-color: #e88e25;
+}
+
+.tituloPrincipal {
+    font-size: 100px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.textoPreto
+{
+    color:black !important;
+}
+
+@font-face
+{
+    font-family: degraus;
+    src: url(../fnt/ScaleDegrees.ttf);
+}
+
+.scaleDegree
+{
+    font-family: degraus;
+}
+
+.botaoGrande {
+    width: 100%;
+    font-size: 30px;
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #0455e8 !important;
+}
+
+.botaoNavegacao
+{
+    margin: 5px;
+    padding: 25px;
+    background-color: #2d6dd3 !important;
+}
+
+.desativado
+{
+    background-color: #9ab8ef !important;
+    border: 2px solid #0455e8 !important;
+    cursor:not-allowed;
+}
+
+.cheioNavegacao
+{
+    margin:0px;
+    width:100%;
+    padding:15px;
+}
+
+.cheio
+{
+    margin:0px;
+    width:100%;
+    padding:35px;
+}
+
+.verde
+{
+    background-color: #32d838;
+}
+
+.azul
+{
+    background-color: #478bf8;
+}
+
+.subtituloPrincipal {
+    font-size: 40px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+img
+{
+    display: block;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#sightIMG
+{
+    border: 3px solid black;
+}
+
+#sightAudio
+{
+    
+}
+
+i
+{
+    color: #e88e25;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+button>a
+{
+    color: white;
+}
+
+button>a>i
+{
+    color: white;
+}
+
+#sheetList
+{
+    background-color: #478bf8 !important;
+    color: white;
+    width: 300px;
+    display: inline-block;
+}
+
+.select>button
+{
+    display: inline-block;
+}
